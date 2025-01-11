@@ -119,7 +119,7 @@
 .about-section .container .content {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+
   gap: 50px;
 }
 
@@ -140,6 +140,7 @@
   right: 0;
   bottom: 0;
   margin: 10px;
+  margin-top: 30px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
@@ -316,7 +317,7 @@
 
 .news-para {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 25.28px;
   text-align: left;
@@ -393,7 +394,7 @@
   margin-right: 8%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .about-section .container .content .description {
     width: 100%;
   }
