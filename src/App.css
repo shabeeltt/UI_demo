@@ -415,21 +415,6 @@
 }
 
 @media (max-width: 800px) {
-  .about .container {
-    flex-direction: column;
-  }
-
-  .about-content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about {
-    height: 900px;
-  }
-}
-
-@media (max-width: 768px) {
   .overlay-content h3,
   .overlay-content p {
     font-size: 12px;
@@ -452,7 +437,21 @@
   .bottom-part .copyright {
     font-size: 12px;
   }
+  .about .container {
+    flex-direction: column;
+  }
 
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about {
+    height: 900px;
+  }
+}
+
+@media (max-width: 768px) {
   .header .logo {
     font-size: 24px;
     margin-left: 5%;

@@ -12,7 +12,7 @@ const AboutSection = () => {
               style={{
                 marginBottom: "40px",
                 fontSize: "25px",
-                width: "258px",
+
                 fontWeight: "700",
                 lineHeight: "33px",
               }}
