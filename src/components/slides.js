@@ -1,7 +1,7 @@
 export const data = {
   slides: [
     {
-      src: "../../public/carousal1.png",
+      src: "carousal1.png",
       alt: "image1",
     },
     {
